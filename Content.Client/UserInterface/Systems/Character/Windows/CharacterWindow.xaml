@@ -1,6 +1,7 @@
 <windows:CharacterWindow
     xmlns="https://spacestation14.io"
     xmlns:cc="clr-namespace:Content.Client.UserInterface.Controls"
+    xmlns:misfitsExperience="clr-namespace:Content.Client._Misfits.Experience.UI"
     xmlns:windows="clr-namespace:Content.Client.UserInterface.Systems.Character.Windows"
     Title="{Loc 'character-info-title'}"
     MinWidth="400"
@@ -13,6 +14,7 @@
                 <BoxContainer Orientation="Vertical" VerticalAlignment="Top">
                     <Label Name="NameLabel" Access="Public"/>
                     <Label Name="SubText" VerticalAlignment="Top" StyleClasses="LabelSubText" Access="Public"/>
+                    <misfitsExperience:CharacterExperienceMenuButton />
                 </BoxContainer>
             </BoxContainer>
             <Label Name="ObjectivesLabel" Access="Public" Text="{Loc 'character-info-objectives-label'}" HorizontalAlignment="Center"/>

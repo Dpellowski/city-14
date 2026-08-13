@@ -1,4 +1,5 @@
 using Content.Shared.Access.Components;
+using Content.Shared._Misfits.CivicPoints;
 using Content.Shared.Examine;
 using Content.Shared.Inventory;
 using Content.Shared.PDA;
@@ -54,27 +55,33 @@ public sealed partial class IdExaminableSystem : EntitySystem
             if (TryComp(idUid, out PdaComponent? pda) &&
                 TryComp<IdCardComponent>(pda.ContainedId, out var id))
             {
-                return GetNameAndJob(id);
+                return GetNameJobAndPriority(new Entity<IdCardComponent>(pda.ContainedId.Value, id));
             }
             // ID Card
             if (TryComp(idUid, out id))
             {
-                return GetNameAndJob(id);
+                return GetNameJobAndPriority(new Entity<IdCardComponent>(idUid.Value, id));
             }
         }
         return null;
     }
 
-    private string GetNameAndJob(IdCardComponent id)
+    private string GetNameJobAndPriority(Entity<IdCardComponent> id)
     {
-        var jobSuffix = string.IsNullOrWhiteSpace(id.LocalizedJobTitle) ? string.Empty : $" ({id.LocalizedJobTitle})";
+        var jobSuffix = string.IsNullOrWhiteSpace(id.Comp.LocalizedJobTitle) ? string.Empty : $" ({id.Comp.LocalizedJobTitle})";
 
-        var val = string.IsNullOrWhiteSpace(id.FullName)
-            ? Loc.GetString(id.NameLocId,
+        var val = string.IsNullOrWhiteSpace(id.Comp.FullName)
+            ? Loc.GetString(id.Comp.NameLocId,
                 ("jobSuffix", jobSuffix))
-            : Loc.GetString(id.FullNameLocId,
-                ("fullName", id.FullName),
+            : Loc.GetString(id.Comp.FullNameLocId,
+                ("fullName", id.Comp.FullName),
                 ("jobSuffix", jobSuffix));
+
+        if (TryComp<CivicPriorityIdCardComponent>(id, out var civic))
+        {
+            val += "\n" + Loc.GetString("civic-priority-id-examine",
+                ("priority", Loc.GetString(civic.Priority.TitleLocId())));
+        }
 
         return val;
     }

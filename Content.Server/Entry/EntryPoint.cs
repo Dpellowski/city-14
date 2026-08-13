@@ -1,5 +1,6 @@
 using System.Threading.Tasks;
 using Content.Server.Acz;
+using Content.Server._Misfits.Experience;
 using Content.Server.Administration;
 using Content.Server.Administration.Logs;
 using Content.Server.Administration.Managers;
@@ -60,6 +61,7 @@ namespace Content.Server.Entry
         [Dependency] private IComponentFactory _factory = default!;
         [Dependency] private IConfigurationManager _cfg = default!;
         [Dependency] private IConnectionManager _connection = default!;
+        [Dependency] private ICharacterExperienceManager _characterExperience = default!;
         [Dependency] private IEntitySystemManager _entSys = default!;
         [Dependency] private IGameMapManager _gameMap = default!;
         [Dependency] private ILogManager _log = default!;
@@ -125,6 +127,7 @@ namespace Content.Server.Entry
             _adminLog.Initialize();
             _connection.Initialize();
             _dbManager.Init();
+            _characterExperience.Initialize();
             _preferences.Init();
             _nodeFactory.Initialize();
             _netResMan.Initialize();

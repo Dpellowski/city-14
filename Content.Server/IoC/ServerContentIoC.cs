@@ -1,4 +1,7 @@
 using Content.Server.Administration;
+using Content.Server._Misfits.Characters;
+using Content.Server._Misfits.CivicPoints;
+using Content.Server._Misfits.Experience;
 using Content.Server.Administration.Logs;
 using Content.Server.Administration.Managers;
 using Content.Server.Administration.Notes;
@@ -44,6 +47,10 @@ internal static class ServerContentIoC
         deps.Register<IChatSanitizationManager, ChatSanitizationManager>();
         deps.Register<IServerPreferencesManager, ServerPreferencesManager>();
         deps.Register<IServerDbManager, ServerDbManager>();
+        deps.Register<IPermanentCharacterManager, PermanentCharacterManager>();
+        deps.Register<ICharacterExperienceManager, CharacterExperienceManager>();
+        deps.Register<ICivicPointsManager, CivicPointsManager>();
+        deps.Register<ICivicPointsTaskRewards, CivicPointsTaskRewards>();
         deps.Register<RecipeManager, RecipeManager>();
         deps.Register<INodeGroupFactory, NodeGroupFactory>();
         deps.Register<IConnectionManager, ConnectionManager>();

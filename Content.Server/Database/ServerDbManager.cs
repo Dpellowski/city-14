@@ -5,6 +5,9 @@ using System.Text.Json;
 using System.Threading;
 using System.Threading.Tasks;
 using Content.Server.Administration.Logs;
+using Content.Server._Misfits.Characters;
+using Content.Server._Misfits.CivicPoints;
+using Content.Server._Misfits.Experience;
 using Content.Shared.Administration.Logs;
 using Content.Shared.CCVar;
 using Content.Shared.Construction.Prototypes;
@@ -26,7 +29,7 @@ using MSLogLevel = Microsoft.Extensions.Logging.LogLevel;
 
 namespace Content.Server.Database
 {
-    public interface IServerDbManager
+    public interface IServerDbManager : IPermanentCharacterDbManager, ICharacterExperienceDbManager, ICivicPointsDbManager
     {
         void Init();
 

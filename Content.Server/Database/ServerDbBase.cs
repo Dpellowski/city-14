@@ -22,7 +22,7 @@ using Robust.Shared.Utility;
 
 namespace Content.Server.Database
 {
-    public abstract class ServerDbBase
+    public abstract partial class ServerDbBase
     {
         private readonly ISawmill _opsLog;
         public event Action<DatabaseNotification>? OnNotificationReceived;
@@ -123,6 +123,8 @@ namespace Content.Server.Database
             }
 
             await db.DbContext.SaveChangesAsync();
+            if (oldProfile == null)
+                await EnsureCharacterCivicPointsAsync(db.DbContext, newProfile.Id);
         }
 
         private static async Task DeleteCharacterSlot(ServerDbContext db, NetUserId userId, int slot)
@@ -157,6 +159,7 @@ namespace Content.Server.Database
             db.DbContext.Preference.Add(prefs);
 
             await db.DbContext.SaveChangesAsync();
+            await EnsureCharacterCivicPointsAsync(db.DbContext, profile.Id);
 
             return prefs;
         }

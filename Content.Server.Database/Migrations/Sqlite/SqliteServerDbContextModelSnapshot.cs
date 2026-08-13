@@ -15,7 +15,7 @@ namespace Content.Server.Database.Migrations.Sqlite
         protected override void BuildModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
-            modelBuilder.HasAnnotation("ProductVersion", "10.0.0");
+            modelBuilder.HasAnnotation("ProductVersion", "10.0.6");
 
             modelBuilder.Entity("Content.Server.Database.Admin", b =>
                 {
@@ -1355,6 +1355,98 @@ namespace Content.Server.Database.Migrations.Sqlite
                     b.ToTable("whitelist", (string)null);
                 });
 
+            modelBuilder.Entity("Content.Server.Database._Misfits.CivicPoints.CharacterCivicPointChangeModel", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER")
+                        .HasColumnName("character_civic_point_change_id");
+
+                    b.Property<long>("BalanceAfter")
+                        .HasColumnType("INTEGER")
+                        .HasColumnName("balance_after");
+
+                    b.Property<DateTimeOffset>("CreatedAt")
+                        .HasColumnType("TEXT")
+                        .HasColumnName("created_at");
+
+                    b.Property<long>("Delta")
+                        .HasColumnType("INTEGER")
+                        .HasColumnName("delta");
+
+                    b.Property<int>("ProfileId")
+                        .HasColumnType("INTEGER")
+                        .HasColumnName("profile_id");
+
+                    b.Property<string>("Reason")
+                        .IsRequired()
+                        .HasMaxLength(512)
+                        .HasColumnType("TEXT")
+                        .HasColumnName("reason");
+
+                    b.Property<string>("SourceId")
+                        .IsRequired()
+                        .HasMaxLength(128)
+                        .HasColumnType("TEXT")
+                        .HasColumnName("source_id");
+
+                    b.Property<string>("SourceKind")
+                        .IsRequired()
+                        .HasMaxLength(32)
+                        .HasColumnType("TEXT")
+                        .HasColumnName("source_kind");
+
+                    b.HasKey("Id")
+                        .HasName("PK_character_civic_point_change");
+
+                    b.HasIndex("ProfileId", "SourceKind", "SourceId")
+                        .IsUnique();
+
+                    b.ToTable("character_civic_point_change", (string)null);
+                });
+
+            modelBuilder.Entity("Content.Server.Database._Misfits.CivicPoints.CharacterCivicPointsModel", b =>
+                {
+                    b.Property<int>("ProfileId")
+                        .HasColumnType("INTEGER")
+                        .HasColumnName("profile_id");
+
+                    b.Property<long>("Points")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER")
+                        .HasDefaultValue(50L)
+                        .HasColumnName("points");
+
+                    b.HasKey("ProfileId")
+                        .HasName("PK_character_civic_points");
+
+                    b.ToTable("character_civic_points", (string)null);
+                });
+
+            modelBuilder.Entity("Content.Server.Database._Misfits.Experience.CharacterExperienceModel", b =>
+                {
+                    b.Property<int>("ProfileId")
+                        .HasColumnType("INTEGER")
+                        .HasColumnName("profile_id");
+
+                    b.Property<string>("ExperienceGroup")
+                        .HasMaxLength(64)
+                        .HasColumnType("TEXT")
+                        .HasColumnName("experience_group");
+
+                    b.Property<long>("TotalExperience")
+                        .HasColumnType("INTEGER")
+                        .HasColumnName("total_experience");
+
+                    b.HasKey("ProfileId", "ExperienceGroup")
+                        .HasName("PK_character_experience");
+
+                    b.ToTable("character_experience", null, t =>
+                        {
+                            t.HasCheckConstraint("TotalExperienceNonNegative", "total_experience >= 0");
+                        });
+                });
+
             modelBuilder.Entity("PlayerRound", b =>
                 {
                     b.Property<int>("PlayersId")
@@ -1909,6 +2001,42 @@ namespace Content.Server.Database.Migrations.Sqlite
                         .HasConstraintName("FK_unban_ban_ban_id");
 
                     b.Navigation("Ban");
+                });
+
+            modelBuilder.Entity("Content.Server.Database._Misfits.CivicPoints.CharacterCivicPointChangeModel", b =>
+                {
+                    b.HasOne("Content.Server.Database.Profile", "Profile")
+                        .WithMany()
+                        .HasForeignKey("ProfileId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired()
+                        .HasConstraintName("FK_character_civic_point_change_profile_profile_id");
+
+                    b.Navigation("Profile");
+                });
+
+            modelBuilder.Entity("Content.Server.Database._Misfits.CivicPoints.CharacterCivicPointsModel", b =>
+                {
+                    b.HasOne("Content.Server.Database.Profile", "Profile")
+                        .WithOne()
+                        .HasForeignKey("Content.Server.Database._Misfits.CivicPoints.CharacterCivicPointsModel", "ProfileId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired()
+                        .HasConstraintName("FK_character_civic_points_profile_profile_id");
+
+                    b.Navigation("Profile");
+                });
+
+            modelBuilder.Entity("Content.Server.Database._Misfits.Experience.CharacterExperienceModel", b =>
+                {
+                    b.HasOne("Content.Server.Database.Profile", "Profile")
+                        .WithMany()
+                        .HasForeignKey("ProfileId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired()
+                        .HasConstraintName("FK_character_experience_profile_profile_id");
+
+                    b.Navigation("Profile");
                 });
 
             modelBuilder.Entity("PlayerRound", b =>

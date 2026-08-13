@@ -6,18 +6,21 @@ using System.Text.Json;
 using Content.Server.Database;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using NpgsqlTypes;
 
 #nullable disable
 
-namespace Content.Server.Database.Migrations.Postgres
+namespace Content.Server.Database.Migrations.Postgres._Misfits
 {
     [DbContext(typeof(PostgresServerDbContext))]
-    partial class PostgresServerDbContextModelSnapshot : ModelSnapshot
+    [Migration("20260813040528_MisfitsCharacterExperience")]
+    partial class MisfitsCharacterExperience
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -1436,76 +1439,6 @@ namespace Content.Server.Database.Migrations.Postgres
                     b.ToTable("whitelist", (string)null);
                 });
 
-            modelBuilder.Entity("Content.Server.Database._Misfits.CivicPoints.CharacterCivicPointChangeModel", b =>
-                {
-                    b.Property<long>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("bigint")
-                        .HasColumnName("character_civic_point_change_id");
-
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<long>("Id"));
-
-                    b.Property<long>("BalanceAfter")
-                        .HasColumnType("bigint")
-                        .HasColumnName("balance_after");
-
-                    b.Property<DateTimeOffset>("CreatedAt")
-                        .HasColumnType("timestamp with time zone")
-                        .HasColumnName("created_at");
-
-                    b.Property<long>("Delta")
-                        .HasColumnType("bigint")
-                        .HasColumnName("delta");
-
-                    b.Property<int>("ProfileId")
-                        .HasColumnType("integer")
-                        .HasColumnName("profile_id");
-
-                    b.Property<string>("Reason")
-                        .IsRequired()
-                        .HasMaxLength(512)
-                        .HasColumnType("character varying(512)")
-                        .HasColumnName("reason");
-
-                    b.Property<string>("SourceId")
-                        .IsRequired()
-                        .HasMaxLength(128)
-                        .HasColumnType("character varying(128)")
-                        .HasColumnName("source_id");
-
-                    b.Property<string>("SourceKind")
-                        .IsRequired()
-                        .HasMaxLength(32)
-                        .HasColumnType("character varying(32)")
-                        .HasColumnName("source_kind");
-
-                    b.HasKey("Id")
-                        .HasName("PK_character_civic_point_change");
-
-                    b.HasIndex("ProfileId", "SourceKind", "SourceId")
-                        .IsUnique();
-
-                    b.ToTable("character_civic_point_change", (string)null);
-                });
-
-            modelBuilder.Entity("Content.Server.Database._Misfits.CivicPoints.CharacterCivicPointsModel", b =>
-                {
-                    b.Property<int>("ProfileId")
-                        .HasColumnType("integer")
-                        .HasColumnName("profile_id");
-
-                    b.Property<long>("Points")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("bigint")
-                        .HasDefaultValue(50L)
-                        .HasColumnName("points");
-
-                    b.HasKey("ProfileId")
-                        .HasName("PK_character_civic_points");
-
-                    b.ToTable("character_civic_points", (string)null);
-                });
-
             modelBuilder.Entity("Content.Server.Database._Misfits.Experience.CharacterExperienceModel", b =>
                 {
                     b.Property<int>("ProfileId")
@@ -2084,30 +2017,6 @@ namespace Content.Server.Database.Migrations.Postgres
                         .HasConstraintName("FK_unban_ban_ban_id");
 
                     b.Navigation("Ban");
-                });
-
-            modelBuilder.Entity("Content.Server.Database._Misfits.CivicPoints.CharacterCivicPointChangeModel", b =>
-                {
-                    b.HasOne("Content.Server.Database.Profile", "Profile")
-                        .WithMany()
-                        .HasForeignKey("ProfileId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired()
-                        .HasConstraintName("FK_character_civic_point_change_profile_profile_id");
-
-                    b.Navigation("Profile");
-                });
-
-            modelBuilder.Entity("Content.Server.Database._Misfits.CivicPoints.CharacterCivicPointsModel", b =>
-                {
-                    b.HasOne("Content.Server.Database.Profile", "Profile")
-                        .WithOne()
-                        .HasForeignKey("Content.Server.Database._Misfits.CivicPoints.CharacterCivicPointsModel", "ProfileId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired()
-                        .HasConstraintName("FK_character_civic_points_profile_profile_id");
-
-                    b.Navigation("Profile");
                 });
 
             modelBuilder.Entity("Content.Server.Database._Misfits.Experience.CharacterExperienceModel", b =>

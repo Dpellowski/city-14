@@ -8,6 +8,7 @@ using System.Linq;
 using System.Net;
 using System.Text.Json;
 using Content.Shared.Database;
+using Content.Server.Database._Misfits;
 using Microsoft.EntityFrameworkCore;
 
 namespace Content.Server.Database
@@ -52,6 +53,8 @@ namespace Content.Server.Database
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            MisfitsDatabaseModel.Configure(modelBuilder);
+
             modelBuilder.Entity<Preference>()
                 .HasIndex(p => p.UserId)
                 .IsUnique();
