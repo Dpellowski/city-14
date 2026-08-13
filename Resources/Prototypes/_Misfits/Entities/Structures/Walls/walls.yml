@@ -1,0 +1,137 @@
+# Walls converted from the supplied SS13 DMIs.
+# BaseWall has no Destructible or RCDDeconstructable component, making these walls invincible.
+- type: entity
+  abstract: true
+  parent: BaseWall
+  id: WallMisfitsBase
+  suffix: Misfits, Indestructible
+  components:
+  - type: Sprite
+    state: wall0
+  - type: Icon
+    state: full
+  - type: IconSmooth
+    mode: CardinalFlags
+    key: walls
+    base: wall
+
+- type: entity
+  parent: WallMisfitsBase
+  id: WallMisfitsWoodwall
+  name: Misfits wood wall
+  description: An indestructible wood wall.
+  components:
+  - type: Sprite
+    sprite: _Misfits/Walls/woodwall.rsi
+  - type: Icon
+    sprite: _Misfits/Walls/woodwall.rsi
+
+- type: entity
+  parent: WallMisfitsBase
+  id: WallMisfitsTrain
+  name: Misfits train wall
+  description: An indestructible train wall.
+  components:
+  - type: Sprite
+    sprite: _Misfits/Walls/train.rsi
+  - type: Icon
+    sprite: _Misfits/Walls/train.rsi
+
+- type: entity
+  parent: WallMisfitsBase
+  id: WallMisfitsStone
+  name: Misfits black stone wall
+  description: An indestructible black stone wall.
+  components:
+  - type: Sprite
+    sprite: _Misfits/Walls/stone.rsi
+  - type: Icon
+    sprite: _Misfits/Walls/stone.rsi
+
+- type: entity
+  parent: WallMisfitsBase
+  id: WallMisfitsSewer
+  name: Misfits sewer wall
+  description: An indestructible sewer wall.
+  components:
+  - type: Sprite
+    sprite: _Misfits/Walls/sewer.rsi
+  - type: Icon
+    sprite: _Misfits/Walls/sewer.rsi
+
+- type: entity
+  parent: WallMisfitsBase
+  id: WallMisfitsMetal
+  name: Misfits metal wall
+  description: An indestructible metal wall.
+  components:
+  - type: Sprite
+    sprite: _Misfits/Walls/metal.rsi
+  - type: Icon
+    sprite: _Misfits/Walls/metal.rsi
+
+- type: entity
+  parent: WallMisfitsBase
+  id: WallMisfitsConcretealt
+  name: Misfits alternate concrete wall
+  description: An indestructible alternate concrete wall.
+  components:
+  - type: Sprite
+    sprite: _Misfits/Walls/concretealt.rsi
+  - type: Icon
+    sprite: _Misfits/Walls/concretealt.rsi
+
+- type: entity
+  parent: WallMisfitsBase
+  id: WallMisfitsConcrete
+  name: Misfits concrete wall
+  description: An indestructible concrete wall.
+  components:
+  - type: Sprite
+    sprite: _Misfits/Walls/concrete.rsi
+  - type: Icon
+    sprite: _Misfits/Walls/concrete.rsi
+
+- type: entity
+  parent: WallMisfitsBase
+  id: WallMisfitsCombine
+  name: Misfits combine wall
+  description: An indestructible combine wall.
+  components:
+  - type: Sprite
+    sprite: _Misfits/Walls/combine.rsi
+  - type: Icon
+    sprite: _Misfits/Walls/combine.rsi
+
+- type: entity
+  parent: WallMisfitsBase
+  id: WallMisfitsBunker
+  name: Misfits bunker wall
+  description: An indestructible bunker wall.
+  components:
+  - type: Sprite
+    sprite: _Misfits/Walls/bunker.rsi
+  - type: Icon
+    sprite: _Misfits/Walls/bunker.rsi
+
+- type: entity
+  parent: WallMisfitsBase
+  id: WallMisfitsBrickgrey
+  name: Misfits gray brick wall
+  description: An indestructible gray brick wall.
+  components:
+  - type: Sprite
+    sprite: _Misfits/Walls/brickgrey.rsi
+  - type: Icon
+    sprite: _Misfits/Walls/brickgrey.rsi
+
+- type: entity
+  parent: WallMisfitsBase
+  id: WallMisfitsBrick
+  name: Misfits brick wall
+  description: An indestructible brick wall.
+  components:
+  - type: Sprite
+    sprite: _Misfits/Walls/brick.rsi
+  - type: Icon
+    sprite: _Misfits/Walls/brick.rsi

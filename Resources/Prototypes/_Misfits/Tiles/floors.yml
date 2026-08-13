@@ -1,0 +1,1962 @@
+# Generated from the usable SS13 DMI states converted under Resources/Textures/_Misfits.
+- type: tile
+  id: FloorMisfitsBase
+  parent: BaseStationTile
+  abstract: true
+  itemDrop: FloorTileItemSteel
+
+# floors.dmi
+- type: tile
+  id: FloorMisfitsFloorsLino
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-lino
+  sprite: /Textures/_Misfits/Tiles/floors/lino.png
+
+- type: tile
+  id: FloorMisfitsFloorsSterilesquares
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-sterilesquares
+  sprite: /Textures/_Misfits/Tiles/floors/sterilesquares.png
+
+- type: tile
+  id: FloorMisfitsFloorsGrooved
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-grooved
+  sprite: /Textures/_Misfits/Tiles/floors/grooved.png
+
+- type: tile
+  id: FloorMisfitsFloorsGrooved2
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-grooved2
+  sprite: /Textures/_Misfits/Tiles/floors/grooved2.png
+
+- type: tile
+  id: FloorMisfitsFloorsTiled9
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-tiled9
+  sprite: /Textures/_Misfits/Tiles/floors/tiled9.png
+
+- type: tile
+  id: FloorMisfitsFloorsTiled10
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-tiled10
+  sprite: /Textures/_Misfits/Tiles/floors/tiled10.png
+
+- type: tile
+  id: FloorMisfitsFloorsSteelIndustrial
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-steel-industrial
+  sprite: /Textures/_Misfits/Tiles/floors/steel-industrial.png
+
+- type: tile
+  id: FloorMisfitsFloorsSteelIndustrialB
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-steel-industrial-b
+  sprite: /Textures/_Misfits/Tiles/floors/steel-industrial-b.png
+  allowRotationMirror: true
+
+- type: tile
+  id: FloorMisfitsFloorsSteelIndustrialBCorner
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-steel-industrial-b-corner
+  sprite: /Textures/_Misfits/Tiles/floors/steel-industrial-b-corner.png
+  allowRotationMirror: true
+
+- type: tile
+  id: FloorMisfitsFloorsSteelIndustrialBEnd
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-steel-industrial-b-end
+  sprite: /Textures/_Misfits/Tiles/floors/steel-industrial-b-end.png
+  allowRotationMirror: true
+
+- type: tile
+  id: FloorMisfitsFloorsSteelIndustrialBSides
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-steel-industrial-b-sides
+  sprite: /Textures/_Misfits/Tiles/floors/steel-industrial-b-sides.png
+  allowRotationMirror: true
+
+- type: tile
+  id: FloorMisfitsFloorsSteelStayclear
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-steel-stayclear
+  sprite: /Textures/_Misfits/Tiles/floors/steel-stayclear.png
+  allowRotationMirror: true
+
+- type: tile
+  id: FloorMisfitsFloorsSteelSolid
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-steel-solid
+  sprite: /Textures/_Misfits/Tiles/floors/steel-solid.png
+  allowRotationMirror: true
+
+- type: tile
+  id: FloorMisfitsFloorsSteelTiles
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-steel-tiles
+  sprite: /Textures/_Misfits/Tiles/floors/steel-tiles.png
+  allowRotationMirror: true
+
+- type: tile
+  id: FloorMisfitsFloorsCombineMetalAlt22
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-combine-metal-alt2-2
+  sprite: /Textures/_Misfits/Tiles/floors/combine-metal-alt2-2.png
+
+- type: tile
+  id: FloorMisfitsFloorsCombineMetalAlt21
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-combine-metal-alt2-1
+  sprite: /Textures/_Misfits/Tiles/floors/combine-metal-alt2-1.png
+
+- type: tile
+  id: FloorMisfitsFloorsCombineMetalAlt2
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-combine-metal-alt2
+  sprite: /Textures/_Misfits/Tiles/floors/combine-metal-alt2.png
+
+- type: tile
+  id: FloorMisfitsFloorsCombineMetalAlt
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-combine-metal-alt
+  sprite: /Textures/_Misfits/Tiles/floors/combine-metal-alt.png
+
+- type: tile
+  id: FloorMisfitsFloorsCombineMetalSmooth
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-combine-metal-smooth
+  sprite: /Textures/_Misfits/Tiles/floors/combine-metal-smooth.png
+
+- type: tile
+  id: FloorMisfitsFloorsCombineMetal
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-combine-metal
+  sprite: /Textures/_Misfits/Tiles/floors/combine-metal.png
+
+- type: tile
+  id: FloorMisfitsFloorsSteelGrate
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-steel-grate
+  sprite: /Textures/_Misfits/Tiles/floors/steel-grate.png
+  allowRotationMirror: true
+
+- type: tile
+  id: FloorMisfitsFloorsSteelGrateAlt
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-steel-grate-alt
+  sprite: /Textures/_Misfits/Tiles/floors/steel-grate-alt.png
+
+- type: tile
+  id: FloorMisfitsFloorsSteelGrateBorder
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-steel-grate-border
+  sprite: /Textures/_Misfits/Tiles/floors/steel-grate-border.png
+  allowRotationMirror: true
+
+- type: tile
+  id: FloorMisfitsFloorsSteelGrateBorder1
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-steel-grate-border-1
+  sprite: /Textures/_Misfits/Tiles/floors/steel-grate-border-1.png
+  allowRotationMirror: true
+
+- type: tile
+  id: FloorMisfitsFloorsSteelGrateBorder2
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-steel-grate-border-2
+  sprite: /Textures/_Misfits/Tiles/floors/steel-grate-border-2.png
+  allowRotationMirror: true
+
+- type: tile
+  id: FloorMisfitsFloorsSteelGrateBorder3
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-steel-grate-border-3
+  sprite: /Textures/_Misfits/Tiles/floors/steel-grate-border-3.png
+  allowRotationMirror: true
+
+- type: tile
+  id: FloorMisfitsFloorsSteelGrateWarning
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-steel-grate-warning
+  sprite: /Textures/_Misfits/Tiles/floors/steel-grate-warning.png
+  allowRotationMirror: true
+
+- type: tile
+  id: FloorMisfitsFloorsConcreteIndustrial
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-concrete-industrial
+  sprite: /Textures/_Misfits/Tiles/floors/concrete-industrial.png
+
+- type: tile
+  id: FloorMisfitsFloorsConcreteIndustrialSplit
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-concrete-industrial-split
+  sprite: /Textures/_Misfits/Tiles/floors/concrete-industrial-split.png
+
+- type: tile
+  id: FloorMisfitsFloorsConcreteIndustrialAlt
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-concrete-industrial-alt
+  sprite: /Textures/_Misfits/Tiles/floors/concrete-industrial-alt.png
+
+- type: tile
+  id: FloorMisfitsFloorsConcreteWalkway
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-concrete-walkway
+  sprite: /Textures/_Misfits/Tiles/floors/concrete-walkway.png
+  allowRotationMirror: true
+
+- type: tile
+  id: FloorMisfitsFloorsConcreteWalkwayCorner
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-concrete-walkway-corner
+  sprite: /Textures/_Misfits/Tiles/floors/concrete-walkway-corner.png
+  allowRotationMirror: true
+
+- type: tile
+  id: FloorMisfitsFloorsConcreteWalkwayEnd
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-concrete-walkway-end
+  sprite: /Textures/_Misfits/Tiles/floors/concrete-walkway-end.png
+  allowRotationMirror: true
+
+- type: tile
+  id: FloorMisfitsFloorsSteelWalkway
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-steel-walkway
+  sprite: /Textures/_Misfits/Tiles/floors/steel-walkway.png
+  allowRotationMirror: true
+
+- type: tile
+  id: FloorMisfitsFloorsSteelWalkwayCorner
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-steel-walkway-corner
+  sprite: /Textures/_Misfits/Tiles/floors/steel-walkway-corner.png
+  allowRotationMirror: true
+
+- type: tile
+  id: FloorMisfitsFloorsSteelWalkwayEnd
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-steel-walkway-end
+  sprite: /Textures/_Misfits/Tiles/floors/steel-walkway-end.png
+  allowRotationMirror: true
+
+- type: tile
+  id: FloorMisfitsFloorsConcreteCableStraight
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-concrete-cable-straight
+  sprite: /Textures/_Misfits/Tiles/floors/concrete-cable-straight.png
+  allowRotationMirror: true
+
+- type: tile
+  id: FloorMisfitsFloorsConcreteCableCurve
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-concrete-cable-curve
+  sprite: /Textures/_Misfits/Tiles/floors/concrete-cable-curve.png
+  allowRotationMirror: true
+
+- type: tile
+  id: FloorMisfitsFloorsConcreteCableMerge
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-concrete-cable-merge
+  sprite: /Textures/_Misfits/Tiles/floors/concrete-cable-merge.png
+  allowRotationMirror: true
+
+- type: tile
+  id: FloorMisfitsFloorsConcreteCableIntersection
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-concrete-cable-intersection
+  sprite: /Textures/_Misfits/Tiles/floors/concrete-cable-intersection.png
+
+- type: tile
+  id: FloorMisfitsFloorsConcreteCableBox
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-concrete-cable-box
+  sprite: /Textures/_Misfits/Tiles/floors/concrete-cable-box.png
+  allowRotationMirror: true
+
+- type: tile
+  id: FloorMisfitsFloorsConcreteCableNode
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-concrete-cable-node
+  sprite: /Textures/_Misfits/Tiles/floors/concrete-cable-node.png
+  allowRotationMirror: true
+
+- type: tile
+  id: FloorMisfitsFloorsConcreteSmall
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-concrete-small
+  sprite: /Textures/_Misfits/Tiles/floors/concrete-small.png
+
+- type: tile
+  id: FloorMisfitsFloorsConcreteBig
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-concrete-big
+  sprite: /Textures/_Misfits/Tiles/floors/concrete-big.png
+
+- type: tile
+  id: FloorMisfitsFloorsConcreteBricks
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-concrete-bricks
+  sprite: /Textures/_Misfits/Tiles/floors/concrete-bricks.png
+
+- type: tile
+  id: FloorMisfitsFloorsConcreteBricks1
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-concrete-bricks-1
+  sprite: /Textures/_Misfits/Tiles/floors/concrete-bricks-1.png
+
+- type: tile
+  id: FloorMisfitsFloorsConcreteBricks2
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-concrete-bricks-2
+  sprite: /Textures/_Misfits/Tiles/floors/concrete-bricks-2.png
+
+- type: tile
+  id: FloorMisfitsFloorsConcreteBricks3
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-concrete-bricks-3
+  sprite: /Textures/_Misfits/Tiles/floors/concrete-bricks-3.png
+
+- type: tile
+  id: FloorMisfitsFloorsConcreteBricks4
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-concrete-bricks-4
+  sprite: /Textures/_Misfits/Tiles/floors/concrete-bricks-4.png
+
+- type: tile
+  id: FloorMisfitsFloorsConcreteBricks5
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-concrete-bricks-5
+  sprite: /Textures/_Misfits/Tiles/floors/concrete-bricks-5.png
+
+- type: tile
+  id: FloorMisfitsFloorsConcreteBricks6
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-concrete-bricks-6
+  sprite: /Textures/_Misfits/Tiles/floors/concrete-bricks-6.png
+
+- type: tile
+  id: FloorMisfitsFloorsConcreteBricks8
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-concrete-bricks-8
+  sprite: /Textures/_Misfits/Tiles/floors/concrete-bricks-8.png
+
+- type: tile
+  id: FloorMisfitsFloorsPipeStraight
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-pipe-straight
+  sprite: /Textures/_Misfits/Tiles/floors/pipe-straight.png
+  allowRotationMirror: true
+
+- type: tile
+  id: FloorMisfitsFloorsPipeCorner
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-pipe-corner
+  sprite: /Textures/_Misfits/Tiles/floors/pipe-corner.png
+  allowRotationMirror: true
+
+- type: tile
+  id: FloorMisfitsFloorsPipeIntersection
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-pipe-intersection
+  sprite: /Textures/_Misfits/Tiles/floors/pipe-intersection.png
+  allowRotationMirror: true
+
+- type: tile
+  id: FloorMisfitsFloorsBrick
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-brick
+  sprite: /Textures/_Misfits/Tiles/floors/brick.png
+  allowRotationMirror: true
+
+- type: tile
+  id: FloorMisfitsFloorsBrick1
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-brick-1
+  sprite: /Textures/_Misfits/Tiles/floors/brick-1.png
+  allowRotationMirror: true
+
+- type: tile
+  id: FloorMisfitsFloorsBrick2
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-brick-2
+  sprite: /Textures/_Misfits/Tiles/floors/brick-2.png
+  allowRotationMirror: true
+
+- type: tile
+  id: FloorMisfitsFloorsBrick3
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-brick-3
+  sprite: /Textures/_Misfits/Tiles/floors/brick-3.png
+  allowRotationMirror: true
+
+- type: tile
+  id: FloorMisfitsFloorsBrick4
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-brick-4
+  sprite: /Textures/_Misfits/Tiles/floors/brick-4.png
+  allowRotationMirror: true
+
+- type: tile
+  id: FloorMisfitsFloorsBrick5
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-brick-5
+  sprite: /Textures/_Misfits/Tiles/floors/brick-5.png
+  allowRotationMirror: true
+
+- type: tile
+  id: FloorMisfitsFloorsBrick6
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-brick-6
+  sprite: /Textures/_Misfits/Tiles/floors/brick-6.png
+  allowRotationMirror: true
+
+- type: tile
+  id: FloorMisfitsFloorsBrick7
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-brick-7
+  sprite: /Textures/_Misfits/Tiles/floors/brick-7.png
+  allowRotationMirror: true
+
+- type: tile
+  id: FloorMisfitsFloorsBrick8
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-brick-8
+  sprite: /Textures/_Misfits/Tiles/floors/brick-8.png
+  allowRotationMirror: true
+
+- type: tile
+  id: FloorMisfitsFloorsCeramic
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-ceramic
+  sprite: /Textures/_Misfits/Tiles/floors/ceramic.png
+
+- type: tile
+  id: FloorMisfitsFloorsCeramic1
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-ceramic-1
+  sprite: /Textures/_Misfits/Tiles/floors/ceramic-1.png
+
+- type: tile
+  id: FloorMisfitsFloorsCeramic2
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-ceramic-2
+  sprite: /Textures/_Misfits/Tiles/floors/ceramic-2.png
+
+- type: tile
+  id: FloorMisfitsFloorsKitchentile
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-kitchentile
+  sprite: /Textures/_Misfits/Tiles/floors/kitchentile.png
+
+- type: tile
+  id: FloorMisfitsFloorsGreyLong
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-grey-long
+  sprite: /Textures/_Misfits/Tiles/floors/grey-long.png
+
+- type: tile
+  id: FloorMisfitsFloorsGreyLong1
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-grey-long-1
+  sprite: /Textures/_Misfits/Tiles/floors/grey-long-1.png
+
+- type: tile
+  id: FloorMisfitsFloorsGreyLong2
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-grey-long-2
+  sprite: /Textures/_Misfits/Tiles/floors/grey-long-2.png
+
+- type: tile
+  id: FloorMisfitsFloorsGreyLong3
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-grey-long-3
+  sprite: /Textures/_Misfits/Tiles/floors/grey-long-3.png
+
+- type: tile
+  id: FloorMisfitsFloorsBlueLong
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-blue-long
+  sprite: /Textures/_Misfits/Tiles/floors/blue-long.png
+
+- type: tile
+  id: FloorMisfitsFloorsBlueLong1
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-blue-long-1
+  sprite: /Textures/_Misfits/Tiles/floors/blue-long-1.png
+
+- type: tile
+  id: FloorMisfitsFloorsBlueLong2
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-blue-long-2
+  sprite: /Textures/_Misfits/Tiles/floors/blue-long-2.png
+
+- type: tile
+  id: FloorMisfitsFloorsBlueLong3
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-blue-long-3
+  sprite: /Textures/_Misfits/Tiles/floors/blue-long-3.png
+
+- type: tile
+  id: FloorMisfitsFloorsBrown
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-brown
+  sprite: /Textures/_Misfits/Tiles/floors/brown.png
+
+- type: tile
+  id: FloorMisfitsFloorsBrown1
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-brown-1
+  sprite: /Textures/_Misfits/Tiles/floors/brown-1.png
+
+- type: tile
+  id: FloorMisfitsFloorsBrown2
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-brown-2
+  sprite: /Textures/_Misfits/Tiles/floors/brown-2.png
+
+- type: tile
+  id: FloorMisfitsFloorsBrown3
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-brown-3
+  sprite: /Textures/_Misfits/Tiles/floors/brown-3.png
+
+- type: tile
+  id: FloorMisfitsFloorsNavy
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-navy
+  sprite: /Textures/_Misfits/Tiles/floors/navy.png
+
+- type: tile
+  id: FloorMisfitsFloorsNavy1
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-navy-1
+  sprite: /Textures/_Misfits/Tiles/floors/navy-1.png
+
+- type: tile
+  id: FloorMisfitsFloorsNavy2
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-navy-2
+  sprite: /Textures/_Misfits/Tiles/floors/navy-2.png
+
+- type: tile
+  id: FloorMisfitsFloorsNavy3
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-navy-3
+  sprite: /Textures/_Misfits/Tiles/floors/navy-3.png
+
+- type: tile
+  id: FloorMisfitsFloorsGrey
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-grey
+  sprite: /Textures/_Misfits/Tiles/floors/grey.png
+
+- type: tile
+  id: FloorMisfitsFloorsGrey1
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-grey-1
+  sprite: /Textures/_Misfits/Tiles/floors/grey-1.png
+
+- type: tile
+  id: FloorMisfitsFloorsGrey2
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-grey-2
+  sprite: /Textures/_Misfits/Tiles/floors/grey-2.png
+
+- type: tile
+  id: FloorMisfitsFloorsGrey3
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-grey-3
+  sprite: /Textures/_Misfits/Tiles/floors/grey-3.png
+
+- type: tile
+  id: FloorMisfitsFloorsBlack
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-black
+  sprite: /Textures/_Misfits/Tiles/floors/black.png
+
+- type: tile
+  id: FloorMisfitsFloorsBlack1
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-black-1
+  sprite: /Textures/_Misfits/Tiles/floors/black-1.png
+
+- type: tile
+  id: FloorMisfitsFloorsBlack2
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-black-2
+  sprite: /Textures/_Misfits/Tiles/floors/black-2.png
+
+- type: tile
+  id: FloorMisfitsFloorsBlack3
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-black-3
+  sprite: /Textures/_Misfits/Tiles/floors/black-3.png
+
+- type: tile
+  id: FloorMisfitsFloorsFancy
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-fancy
+  sprite: /Textures/_Misfits/Tiles/floors/fancy.png
+
+- type: tile
+  id: FloorMisfitsFloorsGreyLarge
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-grey-large
+  sprite: /Textures/_Misfits/Tiles/floors/grey-large.png
+
+- type: tile
+  id: FloorMisfitsFloorsGreyLarge1
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-grey-large-1
+  sprite: /Textures/_Misfits/Tiles/floors/grey-large-1.png
+
+- type: tile
+  id: FloorMisfitsFloorsGreyLarge2
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-grey-large-2
+  sprite: /Textures/_Misfits/Tiles/floors/grey-large-2.png
+
+- type: tile
+  id: FloorMisfitsFloorsGreyLarge3
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-grey-large-3
+  sprite: /Textures/_Misfits/Tiles/floors/grey-large-3.png
+
+- type: tile
+  id: FloorMisfitsFloorsNavyLarge
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-navy-large
+  sprite: /Textures/_Misfits/Tiles/floors/navy-large.png
+
+- type: tile
+  id: FloorMisfitsFloorsNavyLarge1
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-navy-large-1
+  sprite: /Textures/_Misfits/Tiles/floors/navy-large-1.png
+
+- type: tile
+  id: FloorMisfitsFloorsNavyLarge2
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-navy-large-2
+  sprite: /Textures/_Misfits/Tiles/floors/navy-large-2.png
+
+- type: tile
+  id: FloorMisfitsFloorsNavyFull
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-navy-full
+  sprite: /Textures/_Misfits/Tiles/floors/navy-full.png
+
+- type: tile
+  id: FloorMisfitsFloorsBlackLarge
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-black-large
+  sprite: /Textures/_Misfits/Tiles/floors/black-large.png
+
+- type: tile
+  id: FloorMisfitsFloorsBlackLarge1
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-black-large-1
+  sprite: /Textures/_Misfits/Tiles/floors/black-large-1.png
+
+- type: tile
+  id: FloorMisfitsFloorsBlackLarge2
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-black-large-2
+  sprite: /Textures/_Misfits/Tiles/floors/black-large-2.png
+
+- type: tile
+  id: FloorMisfitsFloorsBlackFull
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-black-full
+  sprite: /Textures/_Misfits/Tiles/floors/black-full.png
+
+- type: tile
+  id: FloorMisfitsFloorsGreenLarge
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-green-large
+  sprite: /Textures/_Misfits/Tiles/floors/green-large.png
+
+- type: tile
+  id: FloorMisfitsFloorsGreenLarge1
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-green-large-1
+  sprite: /Textures/_Misfits/Tiles/floors/green-large-1.png
+
+- type: tile
+  id: FloorMisfitsFloorsGreenLarge2
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-green-large-2
+  sprite: /Textures/_Misfits/Tiles/floors/green-large-2.png
+
+- type: tile
+  id: FloorMisfitsFloorsGreenFull
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-green-full
+  sprite: /Textures/_Misfits/Tiles/floors/green-full.png
+
+- type: tile
+  id: FloorMisfitsFloorsWhiteLarge
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-white-large
+  sprite: /Textures/_Misfits/Tiles/floors/white-large.png
+
+- type: tile
+  id: FloorMisfitsFloorsWhiteLarge1
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-white-large-1
+  sprite: /Textures/_Misfits/Tiles/floors/white-large-1.png
+
+- type: tile
+  id: FloorMisfitsFloorsWhiteLarge2
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-white-large-2
+  sprite: /Textures/_Misfits/Tiles/floors/white-large-2.png
+
+- type: tile
+  id: FloorMisfitsFloorsWhiteFull
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-white-full
+  sprite: /Textures/_Misfits/Tiles/floors/white-full.png
+
+- type: tile
+  id: FloorMisfitsFloorsCheckerLarge
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-checker-large
+  sprite: /Textures/_Misfits/Tiles/floors/checker-large.png
+
+- type: tile
+  id: FloorMisfitsFloorsCheckerLarge1
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-checker-large-1
+  sprite: /Textures/_Misfits/Tiles/floors/checker-large-1.png
+
+- type: tile
+  id: FloorMisfitsFloorsCheckerLarge2
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-checker-large-2
+  sprite: /Textures/_Misfits/Tiles/floors/checker-large-2.png
+
+- type: tile
+  id: FloorMisfitsFloorsCheckerLarge3
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-checker-large-3
+  sprite: /Textures/_Misfits/Tiles/floors/checker-large-3.png
+
+- type: tile
+  id: FloorMisfitsFloorsCafeLarge
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-cafe-large
+  sprite: /Textures/_Misfits/Tiles/floors/cafe-large.png
+
+- type: tile
+  id: FloorMisfitsFloorsCafeLarge1
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-cafe-large-1
+  sprite: /Textures/_Misfits/Tiles/floors/cafe-large-1.png
+
+- type: tile
+  id: FloorMisfitsFloorsCafeLarge2
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-cafe-large-2
+  sprite: /Textures/_Misfits/Tiles/floors/cafe-large-2.png
+
+- type: tile
+  id: FloorMisfitsFloorsCafeLarge3
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-cafe-large-3
+  sprite: /Textures/_Misfits/Tiles/floors/cafe-large-3.png
+
+- type: tile
+  id: FloorMisfitsFloorsWoodCommon
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-wood-common
+  sprite: /Textures/_Misfits/Tiles/floors/wood-common.png
+
+- type: tile
+  id: FloorMisfitsFloorsWoodCommon1
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-wood-common-1
+  sprite: /Textures/_Misfits/Tiles/floors/wood-common-1.png
+
+- type: tile
+  id: FloorMisfitsFloorsWoodCommon2
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-wood-common-2
+  sprite: /Textures/_Misfits/Tiles/floors/wood-common-2.png
+
+- type: tile
+  id: FloorMisfitsFloorsWoodCommon3
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-wood-common-3
+  sprite: /Textures/_Misfits/Tiles/floors/wood-common-3.png
+
+- type: tile
+  id: FloorMisfitsFloorsWoodCommon4
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-wood-common-4
+  sprite: /Textures/_Misfits/Tiles/floors/wood-common-4.png
+
+- type: tile
+  id: FloorMisfitsFloorsWoodCommon5
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-wood-common-5
+  sprite: /Textures/_Misfits/Tiles/floors/wood-common-5.png
+
+- type: tile
+  id: FloorMisfitsFloorsWoodCommon6
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-wood-common-6
+  sprite: /Textures/_Misfits/Tiles/floors/wood-common-6.png
+
+- type: tile
+  id: FloorMisfitsFloorsWoodCommon7
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-wood-common-7
+  sprite: /Textures/_Misfits/Tiles/floors/wood-common-7.png
+
+- type: tile
+  id: FloorMisfitsFloorsWoodFancy
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-wood-fancy
+  sprite: /Textures/_Misfits/Tiles/floors/wood-fancy.png
+
+- type: tile
+  id: FloorMisfitsFloorsWoodFancy1
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-wood-fancy-1
+  sprite: /Textures/_Misfits/Tiles/floors/wood-fancy-1.png
+
+- type: tile
+  id: FloorMisfitsFloorsWoodFancy2
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-wood-fancy-2
+  sprite: /Textures/_Misfits/Tiles/floors/wood-fancy-2.png
+
+- type: tile
+  id: FloorMisfitsFloorsWoodFancy3
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-wood-fancy-3
+  sprite: /Textures/_Misfits/Tiles/floors/wood-fancy-3.png
+
+- type: tile
+  id: FloorMisfitsFloorsWoodFancy4
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-wood-fancy-4
+  sprite: /Textures/_Misfits/Tiles/floors/wood-fancy-4.png
+
+- type: tile
+  id: FloorMisfitsFloorsWoodFancy5
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-wood-fancy-5
+  sprite: /Textures/_Misfits/Tiles/floors/wood-fancy-5.png
+
+- type: tile
+  id: FloorMisfitsFloorsWoodFancy6
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-wood-fancy-6
+  sprite: /Textures/_Misfits/Tiles/floors/wood-fancy-6.png
+
+- type: tile
+  id: FloorMisfitsFloorsWoodFancy7
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-wood-fancy-7
+  sprite: /Textures/_Misfits/Tiles/floors/wood-fancy-7.png
+
+- type: tile
+  id: FloorMisfitsFloorsWoodWide
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-wood-wide
+  sprite: /Textures/_Misfits/Tiles/floors/wood-wide.png
+
+- type: tile
+  id: FloorMisfitsFloorsWoodWide1
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-wood-wide-1
+  sprite: /Textures/_Misfits/Tiles/floors/wood-wide-1.png
+
+- type: tile
+  id: FloorMisfitsFloorsWoodWide2
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-wood-wide-2
+  sprite: /Textures/_Misfits/Tiles/floors/wood-wide-2.png
+
+- type: tile
+  id: FloorMisfitsFloorsWoodWide3
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-wood-wide-3
+  sprite: /Textures/_Misfits/Tiles/floors/wood-wide-3.png
+
+- type: tile
+  id: FloorMisfitsFloorsWoodWide4
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-wood-wide-4
+  sprite: /Textures/_Misfits/Tiles/floors/wood-wide-4.png
+
+- type: tile
+  id: FloorMisfitsFloorsWoodWide5
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-wood-wide-5
+  sprite: /Textures/_Misfits/Tiles/floors/wood-wide-5.png
+
+- type: tile
+  id: FloorMisfitsFloorsWoodWide6
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-wood-wide-6
+  sprite: /Textures/_Misfits/Tiles/floors/wood-wide-6.png
+
+- type: tile
+  id: FloorMisfitsFloorsWoodWide7
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-wood-wide-7
+  sprite: /Textures/_Misfits/Tiles/floors/wood-wide-7.png
+
+- type: tile
+  id: FloorMisfitsFloorsWoodMosaic
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-wood-mosaic
+  sprite: /Textures/_Misfits/Tiles/floors/wood-mosaic.png
+
+- type: tile
+  id: FloorMisfitsFloorsWoodMosaic1
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-wood-mosaic-1
+  sprite: /Textures/_Misfits/Tiles/floors/wood-mosaic-1.png
+
+- type: tile
+  id: FloorMisfitsFloorsWoodMosaic2
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-wood-mosaic-2
+  sprite: /Textures/_Misfits/Tiles/floors/wood-mosaic-2.png
+
+- type: tile
+  id: FloorMisfitsFloorsWoodMosaic3
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-wood-mosaic-3
+  sprite: /Textures/_Misfits/Tiles/floors/wood-mosaic-3.png
+
+- type: tile
+  id: FloorMisfitsFloorsWoodMosaic4
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-wood-mosaic-4
+  sprite: /Textures/_Misfits/Tiles/floors/wood-mosaic-4.png
+
+- type: tile
+  id: FloorMisfitsFloorsWoodMosaic5
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-wood-mosaic-5
+  sprite: /Textures/_Misfits/Tiles/floors/wood-mosaic-5.png
+
+- type: tile
+  id: FloorMisfitsFloorsWoodMosaic6
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-wood-mosaic-6
+  sprite: /Textures/_Misfits/Tiles/floors/wood-mosaic-6.png
+
+- type: tile
+  id: FloorMisfitsFloorsWoodMosaic7
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-wood-mosaic-7
+  sprite: /Textures/_Misfits/Tiles/floors/wood-mosaic-7.png
+
+- type: tile
+  id: FloorMisfitsFloorsCarpetRed
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-carpet-red
+  sprite: /Textures/_Misfits/Tiles/floors/carpet-red.png
+
+- type: tile
+  id: FloorMisfitsFloorsCarpetViolet
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-carpet-violet
+  sprite: /Textures/_Misfits/Tiles/floors/carpet-violet.png
+
+- type: tile
+  id: FloorMisfitsFloorsCarpetGreen
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-carpet-green
+  sprite: /Textures/_Misfits/Tiles/floors/carpet-green.png
+
+- type: tile
+  id: FloorMisfitsFloorsCarpetBlue
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-carpet-blue
+  sprite: /Textures/_Misfits/Tiles/floors/carpet-blue.png
+
+- type: tile
+  id: FloorMisfitsFloorsCarpetFancyRed
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-carpet-fancy-red
+  sprite: /Textures/_Misfits/Tiles/floors/carpet-fancy-red.png
+
+- type: tile
+  id: FloorMisfitsFloorsCarpetFancyViolet
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-carpet-fancy-violet
+  sprite: /Textures/_Misfits/Tiles/floors/carpet-fancy-violet.png
+
+- type: tile
+  id: FloorMisfitsFloorsCarpetFancyBlue
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-carpet-fancy-blue
+  sprite: /Textures/_Misfits/Tiles/floors/carpet-fancy-blue.png
+
+- type: tile
+  id: FloorMisfitsFloorsCarpetFancyGreen
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-carpet-fancy-green
+  sprite: /Textures/_Misfits/Tiles/floors/carpet-fancy-green.png
+
+- type: tile
+  id: FloorMisfitsFloorsTrain
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-train
+  sprite: /Textures/_Misfits/Tiles/floors/train.png
+
+- type: tile
+  id: FloorMisfitsFloorsCave
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-cave
+  sprite: /Textures/_Misfits/Tiles/floors/cave.png
+
+- type: tile
+  id: FloorMisfitsFloorsCave2
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-cave-2
+  sprite: /Textures/_Misfits/Tiles/floors/cave-2.png
+
+- type: tile
+  id: FloorMisfitsFloorsCave3
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-cave-3
+  sprite: /Textures/_Misfits/Tiles/floors/cave-3.png
+
+- type: tile
+  id: FloorMisfitsFloorsCave4
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-cave-4
+  sprite: /Textures/_Misfits/Tiles/floors/cave-4.png
+
+- type: tile
+  id: FloorMisfitsFloorsCave5
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-cave-5
+  sprite: /Textures/_Misfits/Tiles/floors/cave-5.png
+
+- type: tile
+  id: FloorMisfitsFloorsCave6
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-cave-6
+  sprite: /Textures/_Misfits/Tiles/floors/cave-6.png
+
+- type: tile
+  id: FloorMisfitsFloorsCave7
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-cave-7
+  sprite: /Textures/_Misfits/Tiles/floors/cave-7.png
+
+- type: tile
+  id: FloorMisfitsFloorsDeadgrass1
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-deadgrass-1
+  sprite: /Textures/_Misfits/Tiles/floors/deadgrass-1.png
+
+- type: tile
+  id: FloorMisfitsFloorsDeadgrass2
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-deadgrass-2
+  sprite: /Textures/_Misfits/Tiles/floors/deadgrass-2.png
+
+- type: tile
+  id: FloorMisfitsFloorsDeadgrass3
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-deadgrass-3
+  sprite: /Textures/_Misfits/Tiles/floors/deadgrass-3.png
+
+- type: tile
+  id: FloorMisfitsFloorsDirt1
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-dirt-1
+  sprite: /Textures/_Misfits/Tiles/floors/dirt-1.png
+
+- type: tile
+  id: FloorMisfitsFloorsDirt2
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-dirt-2
+  sprite: /Textures/_Misfits/Tiles/floors/dirt-2.png
+
+- type: tile
+  id: FloorMisfitsFloorsDirt3
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-dirt-3
+  sprite: /Textures/_Misfits/Tiles/floors/dirt-3.png
+
+- type: tile
+  id: FloorMisfitsFloorsDrydirt1
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-drydirt-1
+  sprite: /Textures/_Misfits/Tiles/floors/drydirt-1.png
+
+- type: tile
+  id: FloorMisfitsFloorsDrydirt2
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-drydirt-2
+  sprite: /Textures/_Misfits/Tiles/floors/drydirt-2.png
+
+- type: tile
+  id: FloorMisfitsFloorsDrydirt3
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-drydirt-3
+  sprite: /Textures/_Misfits/Tiles/floors/drydirt-3.png
+
+- type: tile
+  id: FloorMisfitsFloorsMud1
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-mud-1
+  sprite: /Textures/_Misfits/Tiles/floors/mud-1.png
+
+- type: tile
+  id: FloorMisfitsFloorsMud2
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-mud-2
+  sprite: /Textures/_Misfits/Tiles/floors/mud-2.png
+
+- type: tile
+  id: FloorMisfitsFloorsMud3
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-mud-3
+  sprite: /Textures/_Misfits/Tiles/floors/mud-3.png
+
+- type: tile
+  id: FloorMisfitsFloorsGravel1
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-gravel-1
+  sprite: /Textures/_Misfits/Tiles/floors/gravel-1.png
+
+- type: tile
+  id: FloorMisfitsFloorsGravel2
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-gravel-2
+  sprite: /Textures/_Misfits/Tiles/floors/gravel-2.png
+
+- type: tile
+  id: FloorMisfitsFloorsHlGrass
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-hl-grass
+  sprite: /Textures/_Misfits/Tiles/floors/hl-grass.png
+
+- type: tile
+  id: FloorMisfitsFloorsTrainCarpet
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-train-carpet
+  sprite: /Textures/_Misfits/Tiles/floors/train-carpet.png
+
+- type: tile
+  id: FloorMisfitsFloorsTrainFloor
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-train-floor
+  sprite: /Textures/_Misfits/Tiles/floors/train-floor.png
+
+- type: tile
+  id: FloorMisfitsFloorsHlSnow
+  parent: FloorMisfitsBase
+  name: tiles-misfits-floors-hl-snow
+  sprite: /Textures/_Misfits/Tiles/floors/hl-snow.png
+
+# road.dmi
+- type: tile
+  id: FloorMisfitsRoadRoad
+  parent: FloorMisfitsBase
+  name: tiles-misfits-road-road
+  sprite: /Textures/_Misfits/Tiles/road/road.png
+
+- type: tile
+  id: FloorMisfitsRoadRoad1
+  parent: FloorMisfitsBase
+  name: tiles-misfits-road-road-1
+  sprite: /Textures/_Misfits/Tiles/road/road-1.png
+
+- type: tile
+  id: FloorMisfitsRoadRoad2
+  parent: FloorMisfitsBase
+  name: tiles-misfits-road-road-2
+  sprite: /Textures/_Misfits/Tiles/road/road-2.png
+
+- type: tile
+  id: FloorMisfitsRoadRoad4
+  parent: FloorMisfitsBase
+  name: tiles-misfits-road-road-4
+  sprite: /Textures/_Misfits/Tiles/road/road-4.png
+
+- type: tile
+  id: FloorMisfitsRoadRoad5
+  parent: FloorMisfitsBase
+  name: tiles-misfits-road-road-5
+  sprite: /Textures/_Misfits/Tiles/road/road-5.png
+
+- type: tile
+  id: FloorMisfitsRoadRoad6
+  parent: FloorMisfitsBase
+  name: tiles-misfits-road-road-6
+  sprite: /Textures/_Misfits/Tiles/road/road-6.png
+
+- type: tile
+  id: FloorMisfitsRoadRoad8
+  parent: FloorMisfitsBase
+  name: tiles-misfits-road-road-8
+  sprite: /Textures/_Misfits/Tiles/road/road-8.png
+
+- type: tile
+  id: FloorMisfitsRoadRoad9
+  parent: FloorMisfitsBase
+  name: tiles-misfits-road-road-9
+  sprite: /Textures/_Misfits/Tiles/road/road-9.png
+
+- type: tile
+  id: FloorMisfitsRoadRoad10
+  parent: FloorMisfitsBase
+  name: tiles-misfits-road-road-10
+  sprite: /Textures/_Misfits/Tiles/road/road-10.png
+
+- type: tile
+  id: FloorMisfitsRoadRoad127
+  parent: FloorMisfitsBase
+  name: tiles-misfits-road-road-127
+  sprite: /Textures/_Misfits/Tiles/road/road-127.png
+
+- type: tile
+  id: FloorMisfitsRoadRoad191
+  parent: FloorMisfitsBase
+  name: tiles-misfits-road-road-191
+  sprite: /Textures/_Misfits/Tiles/road/road-191.png
+
+- type: tile
+  id: FloorMisfitsRoadRoad223
+  parent: FloorMisfitsBase
+  name: tiles-misfits-road-road-223
+  sprite: /Textures/_Misfits/Tiles/road/road-223.png
+
+- type: tile
+  id: FloorMisfitsRoadRoad239
+  parent: FloorMisfitsBase
+  name: tiles-misfits-road-road-239
+  sprite: /Textures/_Misfits/Tiles/road/road-239.png
+
+# sewer_floor.dmi
+- type: tile
+  id: FloorMisfitsSewerFloorFloor0
+  parent: FloorMisfitsBase
+  name: tiles-misfits-sewer-floor-floor-0
+  sprite: /Textures/_Misfits/Tiles/sewer_floor/floor-0.png
+
+- type: tile
+  id: FloorMisfitsSewerFloorFloor1
+  parent: FloorMisfitsBase
+  name: tiles-misfits-sewer-floor-floor-1
+  sprite: /Textures/_Misfits/Tiles/sewer_floor/floor-1.png
+
+- type: tile
+  id: FloorMisfitsSewerFloorFloor2
+  parent: FloorMisfitsBase
+  name: tiles-misfits-sewer-floor-floor-2
+  sprite: /Textures/_Misfits/Tiles/sewer_floor/floor-2.png
+
+- type: tile
+  id: FloorMisfitsSewerFloorFloor3
+  parent: FloorMisfitsBase
+  name: tiles-misfits-sewer-floor-floor-3
+  sprite: /Textures/_Misfits/Tiles/sewer_floor/floor-3.png
+
+- type: tile
+  id: FloorMisfitsSewerFloorFloor4
+  parent: FloorMisfitsBase
+  name: tiles-misfits-sewer-floor-floor-4
+  sprite: /Textures/_Misfits/Tiles/sewer_floor/floor-4.png
+
+- type: tile
+  id: FloorMisfitsSewerFloorFloor5
+  parent: FloorMisfitsBase
+  name: tiles-misfits-sewer-floor-floor-5
+  sprite: /Textures/_Misfits/Tiles/sewer_floor/floor-5.png
+
+- type: tile
+  id: FloorMisfitsSewerFloorFloor6
+  parent: FloorMisfitsBase
+  name: tiles-misfits-sewer-floor-floor-6
+  sprite: /Textures/_Misfits/Tiles/sewer_floor/floor-6.png
+
+- type: tile
+  id: FloorMisfitsSewerFloorFloor7
+  parent: FloorMisfitsBase
+  name: tiles-misfits-sewer-floor-floor-7
+  sprite: /Textures/_Misfits/Tiles/sewer_floor/floor-7.png
+
+- type: tile
+  id: FloorMisfitsSewerFloorFloor8
+  parent: FloorMisfitsBase
+  name: tiles-misfits-sewer-floor-floor-8
+  sprite: /Textures/_Misfits/Tiles/sewer_floor/floor-8.png
+
+- type: tile
+  id: FloorMisfitsSewerFloorFloor9
+  parent: FloorMisfitsBase
+  name: tiles-misfits-sewer-floor-floor-9
+  sprite: /Textures/_Misfits/Tiles/sewer_floor/floor-9.png
+
+- type: tile
+  id: FloorMisfitsSewerFloorFloor10
+  parent: FloorMisfitsBase
+  name: tiles-misfits-sewer-floor-floor-10
+  sprite: /Textures/_Misfits/Tiles/sewer_floor/floor-10.png
+
+- type: tile
+  id: FloorMisfitsSewerFloorFloor11
+  parent: FloorMisfitsBase
+  name: tiles-misfits-sewer-floor-floor-11
+  sprite: /Textures/_Misfits/Tiles/sewer_floor/floor-11.png
+
+- type: tile
+  id: FloorMisfitsSewerFloorFloor12
+  parent: FloorMisfitsBase
+  name: tiles-misfits-sewer-floor-floor-12
+  sprite: /Textures/_Misfits/Tiles/sewer_floor/floor-12.png
+
+- type: tile
+  id: FloorMisfitsSewerFloorFloor13
+  parent: FloorMisfitsBase
+  name: tiles-misfits-sewer-floor-floor-13
+  sprite: /Textures/_Misfits/Tiles/sewer_floor/floor-13.png
+
+- type: tile
+  id: FloorMisfitsSewerFloorFloor14
+  parent: FloorMisfitsBase
+  name: tiles-misfits-sewer-floor-floor-14
+  sprite: /Textures/_Misfits/Tiles/sewer_floor/floor-14.png
+
+- type: tile
+  id: FloorMisfitsSewerFloorFloor15
+  parent: FloorMisfitsBase
+  name: tiles-misfits-sewer-floor-floor-15
+  sprite: /Textures/_Misfits/Tiles/sewer_floor/floor-15.png
+
+- type: tile
+  id: FloorMisfitsSewerFloorFloor21
+  parent: FloorMisfitsBase
+  name: tiles-misfits-sewer-floor-floor-21
+  sprite: /Textures/_Misfits/Tiles/sewer_floor/floor-21.png
+
+- type: tile
+  id: FloorMisfitsSewerFloorFloor23
+  parent: FloorMisfitsBase
+  name: tiles-misfits-sewer-floor-floor-23
+  sprite: /Textures/_Misfits/Tiles/sewer_floor/floor-23.png
+
+- type: tile
+  id: FloorMisfitsSewerFloorFloor29
+  parent: FloorMisfitsBase
+  name: tiles-misfits-sewer-floor-floor-29
+  sprite: /Textures/_Misfits/Tiles/sewer_floor/floor-29.png
+
+- type: tile
+  id: FloorMisfitsSewerFloorFloor31
+  parent: FloorMisfitsBase
+  name: tiles-misfits-sewer-floor-floor-31
+  sprite: /Textures/_Misfits/Tiles/sewer_floor/floor-31.png
+
+- type: tile
+  id: FloorMisfitsSewerFloorFloor38
+  parent: FloorMisfitsBase
+  name: tiles-misfits-sewer-floor-floor-38
+  sprite: /Textures/_Misfits/Tiles/sewer_floor/floor-38.png
+
+- type: tile
+  id: FloorMisfitsSewerFloorFloor39
+  parent: FloorMisfitsBase
+  name: tiles-misfits-sewer-floor-floor-39
+  sprite: /Textures/_Misfits/Tiles/sewer_floor/floor-39.png
+
+- type: tile
+  id: FloorMisfitsSewerFloorFloor46
+  parent: FloorMisfitsBase
+  name: tiles-misfits-sewer-floor-floor-46
+  sprite: /Textures/_Misfits/Tiles/sewer_floor/floor-46.png
+
+- type: tile
+  id: FloorMisfitsSewerFloorFloor47
+  parent: FloorMisfitsBase
+  name: tiles-misfits-sewer-floor-floor-47
+  sprite: /Textures/_Misfits/Tiles/sewer_floor/floor-47.png
+
+- type: tile
+  id: FloorMisfitsSewerFloorFloor55
+  parent: FloorMisfitsBase
+  name: tiles-misfits-sewer-floor-floor-55
+  sprite: /Textures/_Misfits/Tiles/sewer_floor/floor-55.png
+
+- type: tile
+  id: FloorMisfitsSewerFloorFloor63
+  parent: FloorMisfitsBase
+  name: tiles-misfits-sewer-floor-floor-63
+  sprite: /Textures/_Misfits/Tiles/sewer_floor/floor-63.png
+
+- type: tile
+  id: FloorMisfitsSewerFloorFloor74
+  parent: FloorMisfitsBase
+  name: tiles-misfits-sewer-floor-floor-74
+  sprite: /Textures/_Misfits/Tiles/sewer_floor/floor-74.png
+
+- type: tile
+  id: FloorMisfitsSewerFloorFloor75
+  parent: FloorMisfitsBase
+  name: tiles-misfits-sewer-floor-floor-75
+  sprite: /Textures/_Misfits/Tiles/sewer_floor/floor-75.png
+
+- type: tile
+  id: FloorMisfitsSewerFloorFloor78
+  parent: FloorMisfitsBase
+  name: tiles-misfits-sewer-floor-floor-78
+  sprite: /Textures/_Misfits/Tiles/sewer_floor/floor-78.png
+
+- type: tile
+  id: FloorMisfitsSewerFloorFloor79
+  parent: FloorMisfitsBase
+  name: tiles-misfits-sewer-floor-floor-79
+  sprite: /Textures/_Misfits/Tiles/sewer_floor/floor-79.png
+
+- type: tile
+  id: FloorMisfitsSewerFloorFloor95
+  parent: FloorMisfitsBase
+  name: tiles-misfits-sewer-floor-floor-95
+  sprite: /Textures/_Misfits/Tiles/sewer_floor/floor-95.png
+
+- type: tile
+  id: FloorMisfitsSewerFloorFloor110
+  parent: FloorMisfitsBase
+  name: tiles-misfits-sewer-floor-floor-110
+  sprite: /Textures/_Misfits/Tiles/sewer_floor/floor-110.png
+
+- type: tile
+  id: FloorMisfitsSewerFloorFloor111
+  parent: FloorMisfitsBase
+  name: tiles-misfits-sewer-floor-floor-111
+  sprite: /Textures/_Misfits/Tiles/sewer_floor/floor-111.png
+
+- type: tile
+  id: FloorMisfitsSewerFloorFloor127
+  parent: FloorMisfitsBase
+  name: tiles-misfits-sewer-floor-floor-127
+  sprite: /Textures/_Misfits/Tiles/sewer_floor/floor-127.png
+
+- type: tile
+  id: FloorMisfitsSewerFloorFloor137
+  parent: FloorMisfitsBase
+  name: tiles-misfits-sewer-floor-floor-137
+  sprite: /Textures/_Misfits/Tiles/sewer_floor/floor-137.png
+
+- type: tile
+  id: FloorMisfitsSewerFloorFloor139
+  parent: FloorMisfitsBase
+  name: tiles-misfits-sewer-floor-floor-139
+  sprite: /Textures/_Misfits/Tiles/sewer_floor/floor-139.png
+
+- type: tile
+  id: FloorMisfitsSewerFloorFloor141
+  parent: FloorMisfitsBase
+  name: tiles-misfits-sewer-floor-floor-141
+  sprite: /Textures/_Misfits/Tiles/sewer_floor/floor-141.png
+
+- type: tile
+  id: FloorMisfitsSewerFloorFloor143
+  parent: FloorMisfitsBase
+  name: tiles-misfits-sewer-floor-floor-143
+  sprite: /Textures/_Misfits/Tiles/sewer_floor/floor-143.png
+
+- type: tile
+  id: FloorMisfitsSewerFloorFloor157
+  parent: FloorMisfitsBase
+  name: tiles-misfits-sewer-floor-floor-157
+  sprite: /Textures/_Misfits/Tiles/sewer_floor/floor-157.png
+
+- type: tile
+  id: FloorMisfitsSewerFloorFloor159
+  parent: FloorMisfitsBase
+  name: tiles-misfits-sewer-floor-floor-159
+  sprite: /Textures/_Misfits/Tiles/sewer_floor/floor-159.png
+
+- type: tile
+  id: FloorMisfitsSewerFloorFloor175
+  parent: FloorMisfitsBase
+  name: tiles-misfits-sewer-floor-floor-175
+  sprite: /Textures/_Misfits/Tiles/sewer_floor/floor-175.png
+
+- type: tile
+  id: FloorMisfitsSewerFloorFloor191
+  parent: FloorMisfitsBase
+  name: tiles-misfits-sewer-floor-floor-191
+  sprite: /Textures/_Misfits/Tiles/sewer_floor/floor-191.png
+
+- type: tile
+  id: FloorMisfitsSewerFloorFloor203
+  parent: FloorMisfitsBase
+  name: tiles-misfits-sewer-floor-floor-203
+  sprite: /Textures/_Misfits/Tiles/sewer_floor/floor-203.png
+
+- type: tile
+  id: FloorMisfitsSewerFloorFloor207
+  parent: FloorMisfitsBase
+  name: tiles-misfits-sewer-floor-floor-207
+  sprite: /Textures/_Misfits/Tiles/sewer_floor/floor-207.png
+
+- type: tile
+  id: FloorMisfitsSewerFloorFloor223
+  parent: FloorMisfitsBase
+  name: tiles-misfits-sewer-floor-floor-223
+  sprite: /Textures/_Misfits/Tiles/sewer_floor/floor-223.png
+
+- type: tile
+  id: FloorMisfitsSewerFloorFloor239
+  parent: FloorMisfitsBase
+  name: tiles-misfits-sewer-floor-floor-239
+  sprite: /Textures/_Misfits/Tiles/sewer_floor/floor-239.png
+
+- type: tile
+  id: FloorMisfitsSewerFloorFloor255
+  parent: FloorMisfitsBase
+  name: tiles-misfits-sewer-floor-floor-255
+  sprite: /Textures/_Misfits/Tiles/sewer_floor/floor-255.png
+
+# sidewalk.dmi
+- type: tile
+  id: FloorMisfitsSidewalkSidewalk
+  parent: FloorMisfitsBase
+  name: tiles-misfits-sidewalk-sidewalk
+  sprite: /Textures/_Misfits/Tiles/sidewalk/sidewalk.png
+
+- type: tile
+  id: FloorMisfitsSidewalkSidewalkinside
+  parent: FloorMisfitsBase
+  name: tiles-misfits-sidewalk-sidewalkinside
+  sprite: /Textures/_Misfits/Tiles/sidewalk/sidewalkinside.png
+
+- type: tile
+  id: FloorMisfitsSidewalkSidewalkinsideslums
+  parent: FloorMisfitsBase
+  name: tiles-misfits-sidewalk-sidewalkinsideslums
+  sprite: /Textures/_Misfits/Tiles/sidewalk/sidewalkinsideslums.png
+
+- type: tile
+  id: FloorMisfitsSidewalkCobblestone
+  parent: FloorMisfitsBase
+  name: tiles-misfits-sidewalk-cobblestone
+  sprite: /Textures/_Misfits/Tiles/sidewalk/cobblestone.png
+
+# stonebrick.dmi
+- type: tile
+  id: FloorMisfitsStonebrickBrick
+  parent: FloorMisfitsBase
+  name: tiles-misfits-stonebrick-brick
+  sprite: /Textures/_Misfits/Tiles/stonebrick/brick.png
+
+- type: tile
+  id: FloorMisfitsStonebrickBrick0
+  parent: FloorMisfitsBase
+  name: tiles-misfits-stonebrick-brick-0
+  sprite: /Textures/_Misfits/Tiles/stonebrick/brick-0.png
+
+- type: tile
+  id: FloorMisfitsStonebrickBrick1
+  parent: FloorMisfitsBase
+  name: tiles-misfits-stonebrick-brick-1
+  sprite: /Textures/_Misfits/Tiles/stonebrick/brick-1.png
+
+- type: tile
+  id: FloorMisfitsStonebrickBrick2
+  parent: FloorMisfitsBase
+  name: tiles-misfits-stonebrick-brick-2
+  sprite: /Textures/_Misfits/Tiles/stonebrick/brick-2.png
+
+- type: tile
+  id: FloorMisfitsStonebrickBrick3
+  parent: FloorMisfitsBase
+  name: tiles-misfits-stonebrick-brick-3
+  sprite: /Textures/_Misfits/Tiles/stonebrick/brick-3.png
+
+- type: tile
+  id: FloorMisfitsStonebrickBrick4
+  parent: FloorMisfitsBase
+  name: tiles-misfits-stonebrick-brick-4
+  sprite: /Textures/_Misfits/Tiles/stonebrick/brick-4.png
+
+- type: tile
+  id: FloorMisfitsStonebrickBrick5
+  parent: FloorMisfitsBase
+  name: tiles-misfits-stonebrick-brick-5
+  sprite: /Textures/_Misfits/Tiles/stonebrick/brick-5.png
+
+- type: tile
+  id: FloorMisfitsStonebrickBrick6
+  parent: FloorMisfitsBase
+  name: tiles-misfits-stonebrick-brick-6
+  sprite: /Textures/_Misfits/Tiles/stonebrick/brick-6.png
+
+- type: tile
+  id: FloorMisfitsStonebrickBrick7
+  parent: FloorMisfitsBase
+  name: tiles-misfits-stonebrick-brick-7
+  sprite: /Textures/_Misfits/Tiles/stonebrick/brick-7.png
+
+- type: tile
+  id: FloorMisfitsStonebrickBrick8
+  parent: FloorMisfitsBase
+  name: tiles-misfits-stonebrick-brick-8
+  sprite: /Textures/_Misfits/Tiles/stonebrick/brick-8.png
+
+- type: tile
+  id: FloorMisfitsStonebrickBrick9
+  parent: FloorMisfitsBase
+  name: tiles-misfits-stonebrick-brick-9
+  sprite: /Textures/_Misfits/Tiles/stonebrick/brick-9.png
+
+- type: tile
+  id: FloorMisfitsStonebrickBrick10
+  parent: FloorMisfitsBase
+  name: tiles-misfits-stonebrick-brick-10
+  sprite: /Textures/_Misfits/Tiles/stonebrick/brick-10.png
+
+- type: tile
+  id: FloorMisfitsStonebrickBrick11
+  parent: FloorMisfitsBase
+  name: tiles-misfits-stonebrick-brick-11
+  sprite: /Textures/_Misfits/Tiles/stonebrick/brick-11.png
+
+- type: tile
+  id: FloorMisfitsStonebrickBrick12
+  parent: FloorMisfitsBase
+  name: tiles-misfits-stonebrick-brick-12
+  sprite: /Textures/_Misfits/Tiles/stonebrick/brick-12.png
+
+- type: tile
+  id: FloorMisfitsStonebrickBrick13
+  parent: FloorMisfitsBase
+  name: tiles-misfits-stonebrick-brick-13
+  sprite: /Textures/_Misfits/Tiles/stonebrick/brick-13.png
+
+- type: tile
+  id: FloorMisfitsStonebrickBrick14
+  parent: FloorMisfitsBase
+  name: tiles-misfits-stonebrick-brick-14
+  sprite: /Textures/_Misfits/Tiles/stonebrick/brick-14.png
+
+- type: tile
+  id: FloorMisfitsStonebrickBrick15
+  parent: FloorMisfitsBase
+  name: tiles-misfits-stonebrick-brick-15
+  sprite: /Textures/_Misfits/Tiles/stonebrick/brick-15.png
+
+- type: tile
+  id: FloorMisfitsStonebrickBrick21
+  parent: FloorMisfitsBase
+  name: tiles-misfits-stonebrick-brick-21
+  sprite: /Textures/_Misfits/Tiles/stonebrick/brick-21.png
+
+- type: tile
+  id: FloorMisfitsStonebrickBrick23
+  parent: FloorMisfitsBase
+  name: tiles-misfits-stonebrick-brick-23
+  sprite: /Textures/_Misfits/Tiles/stonebrick/brick-23.png
+
+- type: tile
+  id: FloorMisfitsStonebrickBrick29
+  parent: FloorMisfitsBase
+  name: tiles-misfits-stonebrick-brick-29
+  sprite: /Textures/_Misfits/Tiles/stonebrick/brick-29.png
+
+- type: tile
+  id: FloorMisfitsStonebrickBrick31
+  parent: FloorMisfitsBase
+  name: tiles-misfits-stonebrick-brick-31
+  sprite: /Textures/_Misfits/Tiles/stonebrick/brick-31.png
+
+- type: tile
+  id: FloorMisfitsStonebrickBrick38
+  parent: FloorMisfitsBase
+  name: tiles-misfits-stonebrick-brick-38
+  sprite: /Textures/_Misfits/Tiles/stonebrick/brick-38.png
+
+- type: tile
+  id: FloorMisfitsStonebrickBrick39
+  parent: FloorMisfitsBase
+  name: tiles-misfits-stonebrick-brick-39
+  sprite: /Textures/_Misfits/Tiles/stonebrick/brick-39.png
+
+- type: tile
+  id: FloorMisfitsStonebrickBrick46
+  parent: FloorMisfitsBase
+  name: tiles-misfits-stonebrick-brick-46
+  sprite: /Textures/_Misfits/Tiles/stonebrick/brick-46.png
+
+- type: tile
+  id: FloorMisfitsStonebrickBrick47
+  parent: FloorMisfitsBase
+  name: tiles-misfits-stonebrick-brick-47
+  sprite: /Textures/_Misfits/Tiles/stonebrick/brick-47.png
+
+- type: tile
+  id: FloorMisfitsStonebrickBrick55
+  parent: FloorMisfitsBase
+  name: tiles-misfits-stonebrick-brick-55
+  sprite: /Textures/_Misfits/Tiles/stonebrick/brick-55.png
+
+- type: tile
+  id: FloorMisfitsStonebrickBrick63
+  parent: FloorMisfitsBase
+  name: tiles-misfits-stonebrick-brick-63
+  sprite: /Textures/_Misfits/Tiles/stonebrick/brick-63.png
+
+- type: tile
+  id: FloorMisfitsStonebrickBrick74
+  parent: FloorMisfitsBase
+  name: tiles-misfits-stonebrick-brick-74
+  sprite: /Textures/_Misfits/Tiles/stonebrick/brick-74.png
+
+- type: tile
+  id: FloorMisfitsStonebrickBrick75
+  parent: FloorMisfitsBase
+  name: tiles-misfits-stonebrick-brick-75
+  sprite: /Textures/_Misfits/Tiles/stonebrick/brick-75.png
+
+- type: tile
+  id: FloorMisfitsStonebrickBrick78
+  parent: FloorMisfitsBase
+  name: tiles-misfits-stonebrick-brick-78
+  sprite: /Textures/_Misfits/Tiles/stonebrick/brick-78.png
+
+- type: tile
+  id: FloorMisfitsStonebrickBrick79
+  parent: FloorMisfitsBase
+  name: tiles-misfits-stonebrick-brick-79
+  sprite: /Textures/_Misfits/Tiles/stonebrick/brick-79.png
+
+- type: tile
+  id: FloorMisfitsStonebrickBrick95
+  parent: FloorMisfitsBase
+  name: tiles-misfits-stonebrick-brick-95
+  sprite: /Textures/_Misfits/Tiles/stonebrick/brick-95.png
+
+- type: tile
+  id: FloorMisfitsStonebrickBrick110
+  parent: FloorMisfitsBase
+  name: tiles-misfits-stonebrick-brick-110
+  sprite: /Textures/_Misfits/Tiles/stonebrick/brick-110.png
+
+- type: tile
+  id: FloorMisfitsStonebrickBrick111
+  parent: FloorMisfitsBase
+  name: tiles-misfits-stonebrick-brick-111
+  sprite: /Textures/_Misfits/Tiles/stonebrick/brick-111.png
+
+- type: tile
+  id: FloorMisfitsStonebrickBrick127
+  parent: FloorMisfitsBase
+  name: tiles-misfits-stonebrick-brick-127
+  sprite: /Textures/_Misfits/Tiles/stonebrick/brick-127.png
+
+- type: tile
+  id: FloorMisfitsStonebrickBrick137
+  parent: FloorMisfitsBase
+  name: tiles-misfits-stonebrick-brick-137
+  sprite: /Textures/_Misfits/Tiles/stonebrick/brick-137.png
+
+- type: tile
+  id: FloorMisfitsStonebrickBrick139
+  parent: FloorMisfitsBase
+  name: tiles-misfits-stonebrick-brick-139
+  sprite: /Textures/_Misfits/Tiles/stonebrick/brick-139.png
+
+- type: tile
+  id: FloorMisfitsStonebrickBrick141
+  parent: FloorMisfitsBase
+  name: tiles-misfits-stonebrick-brick-141
+  sprite: /Textures/_Misfits/Tiles/stonebrick/brick-141.png
+
+- type: tile
+  id: FloorMisfitsStonebrickBrick143
+  parent: FloorMisfitsBase
+  name: tiles-misfits-stonebrick-brick-143
+  sprite: /Textures/_Misfits/Tiles/stonebrick/brick-143.png
+
+- type: tile
+  id: FloorMisfitsStonebrickBrick157
+  parent: FloorMisfitsBase
+  name: tiles-misfits-stonebrick-brick-157
+  sprite: /Textures/_Misfits/Tiles/stonebrick/brick-157.png
+
+- type: tile
+  id: FloorMisfitsStonebrickBrick159
+  parent: FloorMisfitsBase
+  name: tiles-misfits-stonebrick-brick-159
+  sprite: /Textures/_Misfits/Tiles/stonebrick/brick-159.png
+
+- type: tile
+  id: FloorMisfitsStonebrickBrick175
+  parent: FloorMisfitsBase
+  name: tiles-misfits-stonebrick-brick-175
+  sprite: /Textures/_Misfits/Tiles/stonebrick/brick-175.png
+
+- type: tile
+  id: FloorMisfitsStonebrickBrick191
+  parent: FloorMisfitsBase
+  name: tiles-misfits-stonebrick-brick-191
+  sprite: /Textures/_Misfits/Tiles/stonebrick/brick-191.png
+
+- type: tile
+  id: FloorMisfitsStonebrickBrick203
+  parent: FloorMisfitsBase
+  name: tiles-misfits-stonebrick-brick-203
+  sprite: /Textures/_Misfits/Tiles/stonebrick/brick-203.png
+
+- type: tile
+  id: FloorMisfitsStonebrickBrick207
+  parent: FloorMisfitsBase
+  name: tiles-misfits-stonebrick-brick-207
+  sprite: /Textures/_Misfits/Tiles/stonebrick/brick-207.png
+
+- type: tile
+  id: FloorMisfitsStonebrickBrick223
+  parent: FloorMisfitsBase
+  name: tiles-misfits-stonebrick-brick-223
+  sprite: /Textures/_Misfits/Tiles/stonebrick/brick-223.png
+
+- type: tile
+  id: FloorMisfitsStonebrickBrick239
+  parent: FloorMisfitsBase
+  name: tiles-misfits-stonebrick-brick-239
+  sprite: /Textures/_Misfits/Tiles/stonebrick/brick-239.png
+
+# water.dmi
+- type: tile
+  id: FloorMisfitsWaterWaterDeep
+  parent: FloorMisfitsBase
+  name: tiles-misfits-water-water-deep
+  sprite: /Textures/_Misfits/Tiles/water/water-deep.png
+
+- type: tile
+  id: FloorMisfitsWaterWaterMedium
+  parent: FloorMisfitsBase
+  name: tiles-misfits-water-water-medium
+  sprite: /Textures/_Misfits/Tiles/water/water-medium.png
+
+- type: tile
+  id: FloorMisfitsWaterWaterShallow
+  parent: FloorMisfitsBase
+  name: tiles-misfits-water-water-shallow
+  sprite: /Textures/_Misfits/Tiles/water/water-shallow.png
+
+- type: tile
+  id: FloorMisfitsWaterWaterShallowTop
+  parent: FloorMisfitsBase
+  name: tiles-misfits-water-water-shallow-top
+  sprite: /Textures/_Misfits/Tiles/water/water-shallow-top.png
+
+- type: tile
+  id: FloorMisfitsWaterWaterShallowBottom
+  parent: FloorMisfitsBase
+  name: tiles-misfits-water-water-shallow-bottom
+  sprite: /Textures/_Misfits/Tiles/water/water-shallow-bottom.png
+
+- type: tile
+  id: FloorMisfitsWaterWaterMediumTop
+  parent: FloorMisfitsBase
+  name: tiles-misfits-water-water-medium-top
+  sprite: /Textures/_Misfits/Tiles/water/water-medium-top.png
+
+- type: tile
+  id: FloorMisfitsWaterWaterMediumBottom
+  parent: FloorMisfitsBase
+  name: tiles-misfits-water-water-medium-bottom
+  sprite: /Textures/_Misfits/Tiles/water/water-medium-bottom.png
+
+- type: tile
+  id: FloorMisfitsWaterWaterDeepTop
+  parent: FloorMisfitsBase
+  name: tiles-misfits-water-water-deep-top
+  sprite: /Textures/_Misfits/Tiles/water/water-deep-top.png
+
+- type: tile
+  id: FloorMisfitsWaterWaterDeepBottom
+  parent: FloorMisfitsBase
+  name: tiles-misfits-water-water-deep-bottom
+  sprite: /Textures/_Misfits/Tiles/water/water-deep-bottom.png
+
+- type: tile
+  id: FloorMisfitsWaterSewerDeep
+  parent: FloorMisfitsBase
+  name: tiles-misfits-water-sewer-deep
+  sprite: /Textures/_Misfits/Tiles/water/sewer-deep.png
+
+- type: tile
+  id: FloorMisfitsWaterSewerMedium
+  parent: FloorMisfitsBase
+  name: tiles-misfits-water-sewer-medium
+  sprite: /Textures/_Misfits/Tiles/water/sewer-medium.png
+
+- type: tile
+  id: FloorMisfitsWaterSewerShallow
+  parent: FloorMisfitsBase
+  name: tiles-misfits-water-sewer-shallow
+  sprite: /Textures/_Misfits/Tiles/water/sewer-shallow.png
+
+- type: tile
+  id: FloorMisfitsWaterSewerShallowTop
+  parent: FloorMisfitsBase
+  name: tiles-misfits-water-sewer-shallow-top
+  sprite: /Textures/_Misfits/Tiles/water/sewer-shallow-top.png
+
+- type: tile
+  id: FloorMisfitsWaterSewerShallowBottom
+  parent: FloorMisfitsBase
+  name: tiles-misfits-water-sewer-shallow-bottom
+  sprite: /Textures/_Misfits/Tiles/water/sewer-shallow-bottom.png
+
+- type: tile
+  id: FloorMisfitsWaterSewerMediumTop
+  parent: FloorMisfitsBase
+  name: tiles-misfits-water-sewer-medium-top
+  sprite: /Textures/_Misfits/Tiles/water/sewer-medium-top.png
+
+- type: tile
+  id: FloorMisfitsWaterSewerMediumBottom
+  parent: FloorMisfitsBase
+  name: tiles-misfits-water-sewer-medium-bottom
+  sprite: /Textures/_Misfits/Tiles/water/sewer-medium-bottom.png
+
+- type: tile
+  id: FloorMisfitsWaterSewerDeepTop
+  parent: FloorMisfitsBase
+  name: tiles-misfits-water-sewer-deep-top
+  sprite: /Textures/_Misfits/Tiles/water/sewer-deep-top.png
+
+- type: tile
+  id: FloorMisfitsWaterSewerDeepBottom
+  parent: FloorMisfitsBase
+  name: tiles-misfits-water-sewer-deep-bottom
+  sprite: /Textures/_Misfits/Tiles/water/sewer-deep-bottom.png
+
+- type: tile
+  id: FloorMisfitsWaterSludgeDeep
+  parent: FloorMisfitsBase
+  name: tiles-misfits-water-sludge-deep
+  sprite: /Textures/_Misfits/Tiles/water/sludge-deep.png
+
+- type: tile
+  id: FloorMisfitsWaterSludgeMedium
+  parent: FloorMisfitsBase
+  name: tiles-misfits-water-sludge-medium
+  sprite: /Textures/_Misfits/Tiles/water/sludge-medium.png
+
+- type: tile
+  id: FloorMisfitsWaterSludgeShallow
+  parent: FloorMisfitsBase
+  name: tiles-misfits-water-sludge-shallow
+  sprite: /Textures/_Misfits/Tiles/water/sludge-shallow.png

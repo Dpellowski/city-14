@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Converted from Space Station 13 DMI files supplied by Daniel on 2026-08-12; original source and authors were not specified",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "sidewalk"
+    },
+    {
+      "name": "sidewalkinside"
+    },
+    {
+      "name": "sidewalkinsideslums"
+    },
+    {
+      "name": "cobblestone"
+    }
+  ]
+}

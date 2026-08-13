@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Converted from Space Station 13 DMI files supplied by Daniel on 2026-08-12; original source and authors were not specified",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "road"
+    },
+    {
+      "name": "road-1"
+    },
+    {
+      "name": "road-2"
+    },
+    {
+      "name": "road-4"
+    },
+    {
+      "name": "road-5"
+    },
+    {
+      "name": "road-6"
+    },
+    {
+      "name": "road-8"
+    },
+    {
+      "name": "road-9"
+    },
+    {
+      "name": "road-10"
+    },
+    {
+      "name": "road-127"
+    },
+    {
+      "name": "road-191"
+    },
+    {
+      "name": "road-223"
+    },
+    {
+      "name": "road-239"
+    }
+  ]
+}
